@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script type="module" src="https://md-block.verou.me/md-block.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown-light.css"
+      integrity="sha512-n5zPz6LZB0QV1eraRj4OOxRbsV7a12eAGfFcrJ4bBFxxAwwYDp542z5M0w24tKPEhKk2QzjjIpR5hpOjJtGGoA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/hi098123/prism-for-tistory/prism.css"
+    />
+  </head>
+  <body>
+    <div class="nav-icon">
+      <ion-icon name="folder-open-outline" class="icon"></ion-icon>
+      <!-- <ion-icon name="cafe-outline"></ion-icon> -->
+    </div>
+
+    <div class="nav-container">
+      <div class="gnb">
+        <!-- coffee -->
+        <!-- <div class="container">
+        <div class="bg">
+          <div class="cup">
+            <div class="top">
+              <div class="vapour">
+                <span style="--i: 1"></span>
+                <span style="--i: 3"></span>
+                <span style="--i: 16"></span>
+                <span style="--i: 5"></span>
+                <span style="--i: 13"></span>
+                <span style="--i: 20"></span>
+              </div>
+              <div class="circle">
+                <div class="coffee"></div>
+              </div>
+            </div>
+            <div class="handle"></div>
+          </div>
+        </div>
+      </div> -->
+
+        <!-- nav -->
+        <div class="nav-top">
+          <ion-icon name="close-outline" class="close-btn"></ion-icon>
+        </div>
+        <div class="nav">
+          <details id="web-nav" open class="open">
+            <summary>
+              <ion-icon
+                name="chevron-forward-outline"
+                class="marker"
+              ></ion-icon>
+              <ion-icon name="folder-open-outline" class="icon"></ion-icon>Web
+            </summary>
+            <div markdown="1">
+              <ul>
+                <li>
+                  <ion-icon name="document-outline" class="icon"></ion-icon>
+                  <a href="./index.html" class="current-page">
+                    웹은 어떻게 동작하는가?</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </details>
+          <details id="dom-nav">
+            <summary>
+              <ion-icon
+                name="chevron-forward-outline"
+                class="marker"
+              ></ion-icon>
+              <ion-icon name="folder-open-outline" class="icon"></ion-icon>DOM
+            </summary>
+            <div markdown="1">
+              <ul></ul>
+            </div>
+          </details>
+          <details id="html-css-nav">
+            <summary>
+              <ion-icon
+                name="chevron-forward-outline"
+                class="marker"
+              ></ion-icon>
+              <ion-icon name="folder-open-outline" class="icon"></ion-icon
+              >HTML/CSS
+            </summary>
+            <div markdown="1">
+              <ul></ul>
+            </div>
+          </details>
+          <details id="js-nav">
+            <summary>
+              <ion-icon
+                name="chevron-forward-outline"
+                class="marker"
+              ></ion-icon>
+              <ion-icon name="folder-open-outline" class="icon"></ion-icon
+              >Javascript
+            </summary>
+            <div markdown="1">
+              <ul></ul>
+            </div>
+          </details>
+
+          <details id="devops-nav">
+            <summary>
+              <ion-icon
+                name="chevron-forward-outline"
+                class="marker"
+              ></ion-icon>
+              <ion-icon name="folder-open-outline" class="icon"></ion-icon
+              >Devops
+            </summary>
+            <div markdown="1">
+              <ul></ul>
+            </div>
+          </details>
+
+          <details id="etc-nav">
+            <summary>
+              <ion-icon
+                name="chevron-forward-outline"
+                class="marker"
+              ></ion-icon>
+              <ion-icon name="folder-open-outline" class="icon"></ion-icon>Etc
+            </summary>
+            <div markdown="1">
+              <ul></ul>
+            </div>
+          </details>
+        </div>
+      </div>
+    </div>
+
+    <!-- contents -->
+
+    <div class="contents">
+      <div class="markdown-body">
+        <md-block src="./md/web.md"></md-block>
+
+        <div class="reference">
+          <p>Reference</p>
+
+          <ul>
+            <li>[도서]그림으로 보는 웹 구조</li>
+            <li>
+              <a href="https://codechasseur.tistory.com/25"
+                >[WEB]웹 서버와 WAS 차이를 쉽게 알아보자</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- TOC -->
+      <ul class="table-of-contents">
+        <li>
+          <a href="#웹이란" class="web current-section">웹이란?</a>
+        </li>
+        <li><a class="internet" href="#인터넷이란">인터넷이란?</a></li>
+        <li>
+          <a class="web-work" href="#웹은-어떻게-동작하는가"
+            >웹은 어떻게 동작하는가?</a
+          >
+        </li>
+        <li class="sub-list">
+          <a class="browser" href="#웹브라우저">웹브라우저</a>
+        </li>
+        <li class="sub-list">
+          <a class="client" href="#클라이언트">클라이언트</a>
+        </li>
+        <li class="sub-list"><a class="dns" href="#dns">DNS</a></li>
+        <li class="sub-list">
+          <a class="web-server" href="#웹서버">웹서버</a>
+        </li>
+        <li class="sub-list"><a class="was" href="#was">WAS</a></li>
+        <li class="sub-list"><a class="http" href="#http">http</a></li>
+      </ul>
+    </div>
+
+    <footer><p>© 2023 yeonnnee</p></footer>
+    <script src="scripts/webSectionScript.js"></script>
+    <script src="scripts/nav.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/hi098123/prism-for-tistory/prism.js"></script>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
