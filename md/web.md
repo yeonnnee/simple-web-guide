@@ -2,7 +2,7 @@
 
 <div style="display:flex; justify-content:space-between;">
     <!-- <figure> -->
-        <img src="https://github.com/yeonnnee/simple-web-guide/assets/61894688/28c26d6c-66c0-41fa-950e-16cbf7662c0c" width="350" alt="internet-image">
+        <img src="images/internet.png" width="350" alt="internet-image">
         <!-- <figcaption>인터넷</figcaption> -->
     <!-- </figure> -->
     <!-- <figure style="text-align:center; font-size:13px;"> -->
@@ -55,7 +55,7 @@
 
 # 웹은 어떻게 동작하는가?
 
-<img src="https://github.com/yeonnnee/simple-web-guide/assets/61894688/ad4c4cb3-ddd5-4927-9db5-d52724963923" alt="웹 동작 방식">
+<img src="images/web-working.png" alt="웹 동작 방식">
 
 <br/>
 
