@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <script type="module" src="https://md-block.verou.me/md-block.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.2.0/github-markdown-light.css"
@@ -12,7 +11,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="styles/index.css" />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/gh/hi098123/prism-for-tistory/prism.css"
@@ -21,33 +20,10 @@
   <body>
     <div class="nav-icon">
       <ion-icon name="folder-open-outline" class="icon"></ion-icon>
-      <!-- <ion-icon name="cafe-outline"></ion-icon> -->
     </div>
 
     <div class="nav-container">
       <div class="gnb">
-        <!-- coffee -->
-        <!-- <div class="container">
-        <div class="bg">
-          <div class="cup">
-            <div class="top">
-              <div class="vapour">
-                <span style="--i: 1"></span>
-                <span style="--i: 3"></span>
-                <span style="--i: 16"></span>
-                <span style="--i: 5"></span>
-                <span style="--i: 13"></span>
-                <span style="--i: 20"></span>
-              </div>
-              <div class="circle">
-                <div class="coffee"></div>
-              </div>
-            </div>
-            <div class="handle"></div>
-          </div>
-        </div>
-      </div> -->
-
         <!-- nav -->
         <div class="nav-top">
           <ion-icon name="close-outline" class="close-btn"></ion-icon>
@@ -69,6 +45,10 @@
                     웹은 어떻게 동작하는가?</a
                   >
                 </li>
+                <!-- <li>
+                  <ion-icon name="document-outline" class="icon"></ion-icon>
+                  <a href="./http.html">http</a>
+                </li> -->
               </ul>
             </div>
           </details>
@@ -121,7 +101,12 @@
               >Devops
             </summary>
             <div markdown="1">
-              <ul></ul>
+              <ul>
+                <li>
+                  <ion-icon name="document-outline" class="icon"></ion-icon>
+                  <a href="./aws.html"> aws</a>
+                </li>
+              </ul>
             </div>
           </details>
 
@@ -152,9 +137,27 @@
 
           <ul>
             <li>[도서]그림으로 보는 웹 구조</li>
+            <li>[도서]DOM을 깨우치다</li>
             <li>
               <a href="https://codechasseur.tistory.com/25"
                 >[WEB]웹 서버와 WAS 차이를 쉽게 알아보자</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://codecraft.tistory.com/entry/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-2-%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EC%97%94%EC%A7%84-%EB%93%A4%EC%97%AC%EB%8B%A4%EB%B3%B4%EA%B8%B0-Webkit"
+                >[브라우저 이해하기] 2. 브라우저 엔진 들여다보기 (Webkit)</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://developer.mozilla.org/ko/docs/Web/Performance/How_browsers_work"
+                >Mdn Docs</a
+              >
+            </li>
+            <li>
+              <a href="https://so-so.dev/web/browser-rendering-process/"
+                >렌더링 성능 개선(1) — 렌더링 과정 이해하기</a
               >
             </li>
           </ul>
@@ -164,9 +167,11 @@
       <!-- TOC -->
       <ul class="table-of-contents">
         <li>
-          <a href="#웹이란" class="web current-section">웹이란?</a>
+          <a class="internet current-section" href="#인터넷이란">인터넷이란?</a>
         </li>
-        <li><a class="internet" href="#인터넷이란">인터넷이란?</a></li>
+        <li>
+          <a href="#웹이란" class="web">웹이란?</a>
+        </li>
         <li>
           <a class="web-work" href="#웹은-어떻게-동작하는가"
             >웹은 어떻게 동작하는가?</a
@@ -175,6 +180,20 @@
         <li class="sub-list">
           <a class="browser" href="#웹브라우저">웹브라우저</a>
         </li>
+
+        <li class="second-sub-list">
+          <a class="compose-browser" href="#브라우저-구성-요소"
+            >브라우저 구성 요소</a
+          >
+        </li>
+        <li class="second-sub-list">
+          <a
+            class="browser-rendering"
+            href="#브라우저-렌더링-과정-렌더링-엔진-동작-과정"
+            >브라우저 렌더링 과정
+          </a>
+        </li>
+
         <li class="sub-list">
           <a class="client" href="#클라이언트">클라이언트</a>
         </li>
@@ -199,5 +218,6 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <script type="module" src="https://md-block.verou.me/md-block.js"></script>
   </body>
 </html>
