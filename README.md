@@ -9,4 +9,8 @@
 ### 목록
 
 1. WEB
-    - [웹 구조 및 동작 방식](https://yeonnnee.github.io/simple-web-guide/)
+
+   - [웹 구조 및 동작 방식](https://yeonnnee.github.io/simple-web-guide/)
+   - [브라우저 렌더링 과정](https://yeonnnee.github.io/simple-web-guide/#%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EB%A0%8C%EB%8D%94%EB%A7%81-%EA%B3%BC%EC%A0%95-%EB%A0%8C%EB%8D%94%EB%A7%81-%EC%97%94%EC%A7%84-%EB%8F%99%EC%9E%91-%EA%B3%BC%EC%A0%95)
+
+   - [http](https://yeonnnee.github.io/simple-web-guide/http.html)
