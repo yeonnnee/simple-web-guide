@@ -14,3 +14,19 @@
    - [브라우저 렌더링 과정](https://yeonnnee.github.io/simple-web-guide/#%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EB%A0%8C%EB%8D%94%EB%A7%81-%EA%B3%BC%EC%A0%95-%EB%A0%8C%EB%8D%94%EB%A7%81-%EC%97%94%EC%A7%84-%EB%8F%99%EC%9E%91-%EA%B3%BC%EC%A0%95)
 
    - [http](https://yeonnnee.github.io/simple-web-guide/http.html)
+
+
+2. Network
+
+   - 통신이란
+   - QOS
+   - http
+  
+
+3. 자료구조와 알고리즘
+
+
+4. 개발
+
+   - OpenLayers 어디까지 해봤니
+     
