@@ -38,5 +38,6 @@
    -  React 에서 useRef 로 setTimeout, setInterval clear 하기
    -  JWT 토큰 잔여기간 계산하기
    -  Blob URL 다루기
+   -  body 에 `min-height:100vh` 하고 자식 컴포넌트에 `height:100%` 시 해당 자식이 `100vh` 높이가 안되는 이유
      
      
