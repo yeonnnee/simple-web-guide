@@ -9,11 +9,11 @@
 - [브라우저 렌더링 과정](https://yeonnnee.github.io/simple-web-guide/#%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80-%EB%A0%8C%EB%8D%94%EB%A7%81-%EA%B3%BC%EC%A0%95-%EB%A0%8C%EB%8D%94%EB%A7%81-%EC%97%94%EC%A7%84-%EB%8F%99%EC%9E%91-%EA%B3%BC%EC%A0%95)
    
 
-## Http
+## http
 
- - http 등장
- - http 요청과 응답
- - http 버전
+ - http가 웹의 기초라고 불리는 이유
+ - 웹에서 트랜잭션이 어떻게 일어나는가: http 요청과 응답 뜯어보기
+ - http 발전 과정
  - http 아키텍처
    - 프록시 (리버스 프록시 vs 포워드 프록시)
    - 캐시
@@ -33,8 +33,10 @@
      
 
 
-##  React
+##  Frontend Develop
 
-   - useRef 로 setTimeout, setInterval clear 하기
+   -  React 에서 useRef 로 setTimeout, setInterval clear 하기
+   -  JWT 토큰 잔여기간 계산하기
+   -  Blob URL 다루기
      
      
