@@ -20,7 +20,7 @@
 
    - 통신이란
    - QOS
- - [http](https://yeonnnee.github.io/simple-web-guide/http.html)
+   - [http](https://yeonnnee.github.io/simple-web-guide/http.html)
   
 
 3. 자료구조와 알고리즘
