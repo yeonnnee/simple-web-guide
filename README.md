@@ -37,6 +37,7 @@
 
 ##  Frontend Develop
 
+   -  React-app 이 로컬에서 동작하는 원리
    -  React 에서 useRef 로 setTimeout, setInterval clear 하기
    -  JWT 토큰 잔여기간 계산하기
    -  Blob URL 다루기
