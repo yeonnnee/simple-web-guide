@@ -23,7 +23,7 @@
    - 크롤러와 크롤링
    
 ## aws
-  - [s3와 cloudfront 차이](https://yeonnnee.notion.site/AWS-eea619fd1c104da0952aa0ab0409abf7?pvs=4)
+  - [s3 VS cloudfront VS EC2](https://yeonnnee.notion.site/AWS-eea619fd1c104da0952aa0ab0409abf7?pvs=4)
   
 
 
