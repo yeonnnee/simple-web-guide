@@ -26,7 +26,6 @@
   - [s3와 cloudfront 차이](https://yeonnnee.notion.site/AWS-eea619fd1c104da0952aa0ab0409abf7?pvs=4)
   
 
-## 자료구조와 알고리즘
 
 ##  Typescript
 
@@ -45,4 +44,4 @@
    -  webSocket 으로 데이터 받기
    -  webRtc 연결해보기
      
-     
+## 자료구조와 알고리즘
