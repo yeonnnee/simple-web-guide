@@ -54,6 +54,13 @@
      
 ## 자료구조와 알고리즘
 
+   - 우선순위 큐 (Priority Queue)
+   - Hash Table
+   - Linked List
+   - Binary Search Tree
+   - 최단거리 알고리즘
+        - 다익스트라 (Dijkstra) 알고리즘
+   - 클러스터링 알고리즘
 
 
 
