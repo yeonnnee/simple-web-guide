@@ -10,22 +10,7 @@
 - 웹서버 이해하기
    
 
-## http
-
- - http가 웹의 기초라고 불리는 이유
- - 웹에서 트랜잭션이 어떻게 일어나는가: http 요청과 응답 뜯어보기
- - http 발전 과정
- - http 아키텍처
-   - 프록시 (리버스 프록시 vs 포워드 프록시)
-   - 캐시
-   - 웹서버
-   - 게이트웨이
-   - 크롤러와 크롤링
    
-## aws
-  - [S3 vs cloud front vs EC2](https://github.com/yeonnnee/simple-web-guide/blob/master/md/aws.md)
-  
-
 
 ##  Typescript
 
@@ -49,11 +34,24 @@
 - [React] fowardRef, useRef, imperativeHandler 씹고 뜯고 맛보기
   
          
-      
 
 
+
+## CS 지식
+
+### http
+
+ - http가 웹의 기초라고 불리는 이유
+ - 웹에서 트랜잭션이 어떻게 일어나는가: http 요청과 응답 뜯어보기
+ - http 발전 과정
+ - http 아키텍처
+   - 프록시 (리버스 프록시 vs 포워드 프록시)
+   - 캐시
+   - 웹서버
+   - 게이트웨이
+   - 크롤러와 크롤링
      
-## 자료구조와 알고리즘
+### 자료구조와 알고리즘
 
    - 우선순위 큐 (Priority Queue)
    - Hash Table
