@@ -70,14 +70,20 @@
 <br/>
 <br/>
 
-## 자료구조와 알고리즘
+## 자료구조
 
 - 우선순위 큐 (Priority Queue)
 - Hash Table
 - Linked List
 - Binary Search Tree
+
+
+## 알고리즘
+
+- 탐색 알고리즘 (DFS, BFS)
 - 최단거리 알고리즘
   - 다익스트라 (Dijkstra) 알고리즘
+  - 플로이드 와샬 알고리즘
 - 클러스터링 알고리즘
 
 <br/>
@@ -85,21 +91,26 @@
 
 ## 운영체제
 
-- System Structure & Program Execution
-- 시스템 콜 (System Call)
 - 인터럽트
-- Mutex vs Semaphore
-- 프로세스와 스레드, 프로그램의 차이
+- 시스템 콜 (System Call)
 - 블록킹 vs 논블로깅
 - 동기 vs 비동기
+- 프로세스와 스레드, 프로그램의 차이
+- Mutex vs Semaphore
+- Deadlocks
+
+
+
+  
+- System Structure & Program Execution
 - CPU Scheduling
 - Process Synchronization
-- Deadlocks
 - Memory Management
 - Virtual Memory
 - File Systems
 - File System Implementations
 - Disk Management & Scheduling
+
 
 <br/>
 <br/>
