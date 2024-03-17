@@ -117,12 +117,12 @@
 
 ## 데이터베이스
 
-- SQL
 - 트랜잭션
+  - Commit
+  - Rollback
+  - DB 락
+  - 동시성 제어
 - Index
 - DB 세션 ( Sleep Session , Timeout Session)
 - Foreground Thread & Background Thread
-- Commit
-- Rollback
-- DB 락
-- 동시성 제어
+
