@@ -42,7 +42,9 @@
 ## 네트워크
 
 - 웹훅 (Webhook)
--
+- IP
+- DNS
+- NAT vs Bridge
 
 ### http
 
