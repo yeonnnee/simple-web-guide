@@ -10,6 +10,7 @@
 
 # Typescript
 
+- [모듈 시스템 과 namespace](https://github.com/yeonnnee/simple-web-guide/blob/master/md/typescript/module.md)
 - [TypeScript에서 string key로 객체에 접근하기](https://www.typescriptlang.org/play?#code/FAehAIGUBcCcEsB2BzQAwuFDxwGuPkCULgdDvEFwawFpnAF0fEEQJwH9rANVcBIOwFy7wkATAUwA9wBneZRAIbQArrDaAfTvCACQcAdo4BdVwD6j4QDqrgE6aAdMC3QAngAc24AMIB7YYmjgAvOADeAvXoA2bAFyJhAWwBGbWABpwbwFBQXcvX1gAXwBuLWAAYxNEbktTc0sbW2BwcHYAMwFhJ2gANQEnYTcACgBKV3SLawA+cGrs3NyHZzcABn8czuDQgVdewaja4CitJJTLZFgzPQBGa3tHF1cAJn6gkIPXAGZe2MTk1PBF5e317q2V3cDhw5WTs-P58ABrNh1uazgADy3gAVmwEtB1L9-tVGlCCkUSuVKmw6rU4nNLtATNAKoCYdx1J4HNUYS02rYANowgC6riuS2Eqxpf1p4AA1IybqydOzwJMplp8iZYG0sZZySZ8sCwRCoYTqtdmStarU7IMsSYXOonCZkEqmSy6eqwOAkp49PAXOA-EtYABCH5-QAANTw4Eg0OhAC7jGmm8TNckADTXqgAq+kMAEFuNw-NB4MlwIAagcAlWPAXQGYxmCwAaT+BL+0qzGTin0uhNuNhB4Mh0L+3Dh2YRbEKxTKFSq6PAAgB8LzOiptMxF0sOLxTkrzv+22JpPJVla7V59O5KuXnNXem264FauFovFI6n4CL1flddh8PUiLbKM7au7vab-cH6o65ou2rYuv1huWK2XU0IAtK0bTtUUnRhN1UgQFAMF9TQZk6UAIAAWnQjDMKw7CcNwjCAwgSNEGYRB2C4Xh+CEURDD0ARYAETw2GgPxwAzQwEhCRBcSCQwBHAcwE2Itj1CzFJ4HYMVhF4FBu3AElHDYFgTzlSFWIjEjUjYAQWE0dN1MjJw9QAd0U-sARsAAiAALNhDJMCzwAAH3ACyjNFJwWAs7R1OrcNMyyQZeQZAzjNM+sVw8HwWP9LRAxDcAAFlukU8A-MMcBXAZEiyJ4PhBBEMRAAExwAUpvAQAQCcAADXwEAAFrAAoO8BADHR0rABV5wAdlt9bzM18iNJ3fXkSPAEKTBMlgzIiiIWLNJKFKUtjSEAHEHsCQQABcfAEVYHUTakGwQBU2cAX1HAFQ16YgA) (+ [REFERENCE](https://soopdop.github.io/2020/12/01/index-signatures-in-typescript/) )
 - [`string` 과 `T extends string` 비교](https://www.typescriptlang.org/play?#code/PTAEBVQUwDwFygOwCYGdSAGFwoeMCgSkBwJwEkbBazsy0BFx0QB9HAGgcATx0QBrHBCOfMA1x0QDVXAQcfMB5xwDodhQDqrIwCdNAOjxhAN6OAGOsA4g4VKAF0dCAfiayACFtCAMIdCAI8cApTR0KBfUdCAHCcAuNYAFx0IA5u+oBfRqoALFwADNgkeUAnLYAznaCAADWApU1cUjJOroCIk6qKgCPNoICdS4CoE9FuolyABzWggG9DVIAyraCABOOAlWMRoDigVTVwAJ4ADlCgAGIATgCuAJZwoAC8oADkAIaNjQA2UEOgAD7DAEYjiMsjM-NDqHDtIwDuC1Dt7fVDANzV0IidALagAKJX1x09fQDeFzUj-UMAZiMA1lAAPo-Lq9IYXAC+OAuAGMAPaILaga4AqDPXoDUAAHkgsAQKHQW3a3UQAHMAHwAClBLwAXBAAJR0yD9CmgWm9c41BFIvqowEYuAAJixNLBcAZxNJZMZA3ZnLg5xhvORCC2AEY6UKsQL0RLsULqUMyTtmkNGThVX11SLtRLdWihYaJcaxpNpparYi1VAtgBme0vR2CiVUh43IWSEaW62gW0AFiDmMGeqFwqpo3GUwtKp9Nr9cAArCH9S8XS9jaaxp7vXz44WAGyl51GzPunNeuO2gDsLbDEaeEujsfzDa2AA5+y8M780UCO7WYUA)
 
@@ -40,6 +41,9 @@
 
 ## 네트워크
 
+- 웹훅 (Webhook)
+-
+
 ### http
 
 - http가 웹의 기초라고 불리는 이유
@@ -58,6 +62,8 @@
 ## 디자인 패턴
 
 - 어댑터 패턴
+- 싱글톤
+- 옵저버 패턴
 
 <br/>
 <br/>
@@ -77,7 +83,33 @@
 
 ## 운영체제
 
+- System Structure & Program Execution
+- 시스템 콜 (System Call)
+- 인터럽트
+- Mutex vs Semaphore
+- 프로세스와 스레드, 프로그램의 차이
+- 블록킹 vs 논블로깅
+- 동기 vs 비동기
+- CPU Scheduling
+- Process Synchronization
+- Deadlocks
+- Memory Management
+- Virtual Memory
+- File Systems
+- File System Implementations
+- Disk Management & Scheduling
+
 <br/>
 <br/>
 
 ## 데이터베이스
+
+- SQL
+- 트랜잭션
+- Index
+- DB 세션 ( Sleep Session , Timeout Session)
+- Foreground Thread & Background Thread
+- Commit
+- Rollback
+- DB 락
+- 동시성 제어
